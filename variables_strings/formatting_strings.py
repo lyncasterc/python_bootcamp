@@ -13,3 +13,12 @@ print(f'You have {x + 1 }!')
 name = 'stiven'
 
 print(f'You are called {name}. It\'s nice to meet you' ) 
+
+#Excercise
+
+first ='Stiven'
+last ='Cabrera'
+
+formatted = f'First Name: {first}, Last Name: {last}'
+
+print(formatted)
