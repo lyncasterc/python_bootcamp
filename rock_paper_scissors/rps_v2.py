@@ -28,14 +28,18 @@ def rps_v2_start():
   
   elif player_choice == 'paper':
     if computer_choice == 'scissors':
+      print('SHOOT!')
       print('You lose!')
     elif computer_choice == 'rock':
+      print('SHOOT!')
       print('You win!')
 
   elif player_choice == 'scissors':
     if computer_choice == 'rock':
+      print('SHOOT!')
       print('You lose!')
     elif computer_choice == 'paper':
+      print('SHOOT!')
       print('You win!')
 
 
