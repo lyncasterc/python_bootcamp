@@ -39,7 +39,7 @@ def rps_start():
     print('You didn\'t enter anything!')
     player_2_choice = input('(Enter Player 2\'s choice): ')
   
-  while player_2_choice != 'rock' and player_2_choice != 'paper' and player_2_choice != 'scissors':
+  while player_2_choice != 'rock' and player_2_choice != 'paper' and player_2_choice != 'scissors' :
     print('You didn\'t enter rock, paper or scissors!')
     player_2_choice = input('(Enter Player 1\'s choice): ')
 
@@ -77,4 +77,4 @@ def rps_start():
       print('SHOOT!')
       print('It\'s a draw!')
 
-rps_start()
+rps_start()  
