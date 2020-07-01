@@ -10,7 +10,7 @@ def rps_v2_start():
 
   computer_choice = random.choice(rps_choices)
 
-  while  player_choice not in rps_choices:
+  while player_choice not in rps_choices:
     print('You didn\'t enter rock, paper or scissors!')
     player_choice = input('(Enter your choice): ')
 
