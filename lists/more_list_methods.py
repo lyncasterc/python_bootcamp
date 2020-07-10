@@ -33,7 +33,7 @@ words = ['sup', 'bitch']
 
 print(''.join(words)) 
 
-# join adds whatever is in the string to the words
+# join adds whatever is in the string between the strings being combined
 
 print(' '.join(words)) 
 
