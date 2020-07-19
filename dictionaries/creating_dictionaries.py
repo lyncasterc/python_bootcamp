@@ -40,3 +40,9 @@ artist = {
 full_name = f'{artist["first"]} {artist["last"]}'
 
 print(full_name)
+
+full_name2 = artist['first'] + ' ' + artist['last']
+
+print(full_name2)
+
+# both print Neil Young 
