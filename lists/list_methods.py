@@ -32,4 +32,3 @@ print(item, numbers)
 
 numbers.remove(8)
 print(numbers)
-
