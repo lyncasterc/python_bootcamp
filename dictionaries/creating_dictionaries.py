@@ -46,3 +46,10 @@ full_name2 = artist['first'] + ' ' + artist['last']
 print(full_name2)
 
 # both print Neil Young 
+
+# checks if a key is in the dictionary and returns boolean
+print('name'in instructor)
+
+# checks if a value is in the dictionary and returns boolean
+print(4 in instructor.values())
+
