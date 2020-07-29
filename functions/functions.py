@@ -11,4 +11,3 @@ def happy_birhday(name):
 
 happy_birhday('Stiven')
 
-# returning values
