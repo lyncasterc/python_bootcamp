@@ -49,6 +49,7 @@ def prime_number_checker(divident):
 
 
 # this is a function that takes an input and returns a list of the prime factors of the input.
+# this functions calls the previous two functions and will not work w/o them
 def prime_fac(num):
   prime_fac = []
   prime_fac_q = None
