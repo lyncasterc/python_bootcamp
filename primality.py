@@ -14,6 +14,5 @@ def is_prime(n):
     if n % divisor == 0:
       return False
   
-  return True
-
+  return True 
 

@@ -3,6 +3,7 @@ import random
 from termcolor import colored
 import pyfiglet
 
+
 print(colored(pyfiglet.figlet_format('DAD JOKE 3000', font='slant'), color='magenta'))
 
 
@@ -14,7 +15,7 @@ res = requests.get(
   url,
   headers={"Accept": "application/json"},
   params = {"term": search_term }
-
+ 
 )
 
 data = res.json()
