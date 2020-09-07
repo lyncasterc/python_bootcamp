@@ -42,7 +42,7 @@ class Deck:
     if self.count() == 0:
       raise ValueError("All cards have been dealt")
     
-    return [card for card in removed_cards]
+    return removed_cards
   
   def shuffle(self):
     if self.count() < 52:
