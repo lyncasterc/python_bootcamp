@@ -31,17 +31,13 @@ class User:
     return f"{self.first[0]}.{self.last[0]}."
 
 
+class Moderator(User):
+  def __init__(self,first,last,age,community):
+    super().__init__(first,last,age)
+    self.community = community
+  
+  def remove_post(self):
+    pass
 
 
-
-
-
-
-user1 = User("Bob", "Schlob", 57)
-
-print(User.display_active_users())
-
-tom = User.from_string("Tom,Jones,89")
-print(tom.initials())
-print(User.display_active_users())
-print(tom) #repr
+jasmine = Moderator("Jaz","Bazz", 20,"Piano")
