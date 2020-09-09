@@ -1,0 +1,27 @@
+when a for loop is called on something that is iterable, like a list or a string, python in in the background is calling iter() on it.
+
+ex:
+
+    name = "Oprah"
+
+    The string is iterable, but not an iterator.
+
+    In a for loop, Python in the background calls iter(name) which converts 
+    the iterable into an interator.
+
+    The iterator is now able to iterated on.
+
+Next() returns the next element in an interator.
+
+ex:
+    name = "Oprah" is not in iterator but is iterable.
+
+    if you call next(name), you will get an error stating name is not an iterator
+
+    let it_name = iter(name)
+
+    now name has been converted into an iterator object stored in the variable it_name.
+    
+    now when you call next(it_name), it will return "O". Call it again and it will return "p", then "r", etc. Until it hits the end and returns and error.
+
+    This what a for loop is essentially doing in the background.
